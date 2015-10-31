@@ -52,5 +52,5 @@ $ address_extractor -o good_addresses.csv has_some_bad_addresses.txt 2> bad_addr
 
 There are some small issues with this implementation:
 
-- If using `sys.stdin` or `sys.stdout` for input or output, respectively, the file objects will be closed. This presents issues trying to use these in the future.
+- If using `sys.stdin` or `sys.stdout` for input or output, respectively, the file objects will still be closed. This presents issues trying to use these in the future.
 - Errored lines are still printed to `sys.stderr` which may not be expected.
