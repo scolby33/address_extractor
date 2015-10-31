@@ -2,7 +2,8 @@ address_extractor
 =================
 A script to extract US-style street addresses from a text file
 
-.. code:: bash
+::
+
     $ address_extractor
     1600 Pennsylvania Ave NW, Washington, DC 20500 ^D
     1 lines in input
@@ -20,7 +21,8 @@ A script to extract US-style street addresses from a text file
 Command-line Usage
 ------------------
 
-.. code:: bash
+::
+
     address_extractor [-h] [-o OUTPUT] [--remove-post-zip] [input]
 
     positional arguments:
@@ -39,14 +41,16 @@ Command-line Usage
 
 Lines that could not be parsed will be printed to :code:`STDERR`. They can be saved to a file with standard :code:`bash` redirection techniques:
 
-.. code:: bash
+::
+
     $ address_extractor -o good_addresses.csv has_some_bad_addresses.txt 2> bad_addresses.txt
 
 Usage as a Module
 -----------------
 :code:`address_extractor` can be used as a Python module:
 
-.. code:: python
+::
+
     >>> import address_extractor
     >>> address_extractor.main(input=input_file_object, output=output_file_object, remove_post_zip=a_bool)
 
