@@ -5,10 +5,10 @@ __version__ = '1.0.0'
 
 __title__ = 'address_extractor'
 __description__ = 'A script to extract US-style street addresses from a text file.'
-__url__ = ''
+__url__ = 'https://github.com/scolby33/address_extractor'
 
 __author__ = 'Scott Colby'
-__email__ = ''
+__email__ = 'scolby33@gmail.com'
 
 __license__ = 'MIT License'
 __copyright__ = 'Copyright (c) 2015 Scott Colby'
