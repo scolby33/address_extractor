@@ -14,7 +14,7 @@ CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Intended Audience :: End Users/Desktop',
-    'License :: Other/Proprietary License',
+    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3.5',
     'Topic :: Office/Business'
 ]

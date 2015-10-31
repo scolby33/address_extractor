@@ -9,7 +9,7 @@ __url__ = ''
 __author__ = 'Scott Colby'
 __email__ = ''
 
-__license__ = ''
+__license__ = 'MIT License'
 __copyright__ = 'Copyright (c) 2015 Scott Colby'
 
 __all__ = [
