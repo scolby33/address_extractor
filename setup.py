@@ -20,7 +20,7 @@ CLASSIFIERS = [
 ]
 INSTALL_REQUIRES = ['usaddress']
 EXTRAS_REQUIRE = {}
-CONSOLE_ENTRY_POINTS = ['address_extractor=address_extractor.__main__:main']
+CONSOLE_ENTRY_POINTS = ['address_extractor=address_extractor.__main__:run']
 
 #################################################################
 

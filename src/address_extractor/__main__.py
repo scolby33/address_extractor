@@ -82,10 +82,13 @@ def main(**kwargs):
     
     return 0
 
-if __name__ == '__main__':
+def run():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input', type=argparse.FileType('r'), default=sys.stdin, nargs='?', help='the input file. Defaults to stdin.')
     parser.add_argument('-o', '--output', type=argparse.FileType('w'), default=sys.stdout, help='the output file. Defaults to stdout', metavar='OUTPUT')
     parser.add_argument('--remove-post-zip', '-r', action='store_true', default=False, help='when scanning the input lines, remove everything after a sequence of 5 digits followed by a comma. The parsing library used by this script chokes on addresses containing this kind of information, often a county name.')
     args = parser.parse_args()
     main(**vars(args))
+
+if __name__ == '__main__':
+    run()
