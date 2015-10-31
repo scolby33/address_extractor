@@ -1,7 +1,7 @@
 from .__main__ import main
 from .__main__ import parsed_address_to_human
 
-__version__ = '0.1.0'
+__version__ = '0.1.0post1'
 
 __title__ = 'address_extractor'
 __description__ = 'A script to extract US-style street addresses from a text file.'
