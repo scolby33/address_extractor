@@ -9,7 +9,7 @@ import re
 
 PACKAGES = setuptools.find_packages(where='src')
 META_PATH = os.path.join('src', 'address_extractor', '__init__.py')
-KEYWORDS = ['']
+KEYWORDS = ['addresses', 'mailing']
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
