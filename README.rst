@@ -18,6 +18,14 @@ A script to extract US-style street addresses from a text file
 
 :code:`address_extractor` takes text or a text file containing address-like data, one address per line, and parses it into a uniform format with the `usaddress` package.
 
+Installation
+------------
+This package is available from PyPi via :code:`pip`::
+
+    pip install address_extractor
+    
+This will install the module as well as the command-line script as :code:`address_extractor`.
+
 Command-line Usage
 ------------------
 
