@@ -1,4 +1,5 @@
 from .__main__ import main
+from .__main__ import parsed_address_to_human
 
 __version__ = '1.0.0'
 
@@ -13,5 +14,6 @@ __license__ = 'MIT License'
 __copyright__ = 'Copyright (c) 2015 Scott Colby'
 
 __all__ = [
-    'address_extractor'
+    'main',
+    'parsed_address_to_human'
 ]
