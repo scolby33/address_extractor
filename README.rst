@@ -58,3 +58,9 @@ There are some small issues with this implementation:
 
 * If using :code:`sys.stdin` or :code:`sys.stdout` for input or output, respectively, the file objects will still be closed. This presents issues trying to use these in the future.
 * Errored lines are still printed to :code:`sys.stderr` which may not be expected.
+
+Versions and Stability
+----------------------
+This package is uploaded as a 0.1.0 release. There are no tests and little error checking--it originated as a quick-'n-dirty script and I decided to release it as a package to gain familiarity with that process.
+
+Issues, comments, and pull requests are welcome at the GitHub page!
