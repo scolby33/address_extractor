@@ -4,7 +4,7 @@ from .__main__ import parsed_address_to_human
 __version__ = '1.0.0'
 
 __title__ = 'address_extractor'
-__description__ = ''
+__description__ = 'A script to extract US-style street addresses from a text file.'
 __url__ = ''
 
 __author__ = 'Scott Colby'
